@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <item name="btn_calculate" type="id" />
+    <item name="text_tip" type="id" />
+</resources>
