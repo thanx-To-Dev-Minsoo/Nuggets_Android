@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         if (isTaxEnabled) {
             double tax = salary * 0.033;
             salary -= tax;
-        } //2019041061_김민수
+        }
 
         // 한 달 급여를 원으로 표시
         String formattedSalary = String.format("한 달 급여: ₩%,.0f", salary);
@@ -94,4 +94,4 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("확인", null)
                 .show();
     }
-}//2019041061_김민수
+}
