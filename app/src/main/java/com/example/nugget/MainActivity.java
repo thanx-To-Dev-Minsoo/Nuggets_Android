@@ -12,7 +12,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+//이번에는 디자인, 추가 페이지, 색감 조정, 4대보험 적용 시, 다크모드, 스플레쉬툰 그림 확인하기
     private EditText editCompany, editHourlyRate, editHoursWorked, editDaysWorked;
     private Switch switchTax;
     private Button btnCalculate, btnTip;
@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
             return;
         } //2019041061_김민수
 
-        double salary = hourlyRate * hoursWorked * daysWorked;
+        double salary = hourlyRate * hoursWorked * daysWorked;// 급여계산
 
-        if (isTaxEnabled) {
+        if (isTaxEnabled) {//세금
             double tax = salary * 0.033;
             salary -= tax;
         }
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         textResult.setText(formattedSalary);
     }
 
-    private void showTipDialog() {
+    private void showTipDialog() {//설명 창
         new AlertDialog.Builder(this)
                 .setTitle("사용 설명")
                 .setMessage("급여 계산기 사용 방법:\n\n1. 회사 이름을 작성하세요.\n2. 시급을 입력하세요.\n3. " +
