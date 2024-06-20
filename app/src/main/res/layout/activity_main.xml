@@ -144,14 +144,4 @@
         android:textSize="16sp"
         app:rippleColor="#DFC064" />
 
-    <TextView
-        android:id="@+id/developer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_tip"
-        android:layout_marginTop="100dp"
-        android:text="  개발자 : 2019041061_김민수"
-        android:textSize="18sp"
-        android:textColorHighlight="#000"/>
-
 </RelativeLayout>

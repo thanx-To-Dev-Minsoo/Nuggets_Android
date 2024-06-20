@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:windowBackground">@layout/open</item>
+    <style name="CustomProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:minHeight">20dp</item> <!-- ProgressBar의 최소 높이를 설정 -->
+        <item name="android:maxHeight">20dp</item> <!-- ProgressBar의 최대 높이를 설정 -->
     </style>
 </resources>
