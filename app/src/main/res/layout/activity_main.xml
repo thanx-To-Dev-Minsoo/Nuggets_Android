@@ -1,147 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    >
-
-    <TextView
-        android:id="@+id/text_company"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="  회사"
-        android:textColorHighlight="#000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/edit_company"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text_company"
-        android:hint=" 회사를 입력하세요"
-        android:shadowColor="#DFC064"
-        android:textColor="#DFC064"
-        android:textColorHighlight="#DFC064"
-        android:textColorLink="#DFC064"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/text_hourly_rate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit_company"
-        android:layout_marginTop="16dp"
-        android:text="  시급"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/edit_hourly_rate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text_hourly_rate"
-        android:hint=" 시급을 입력하세요"
-        android:inputType="numberDecimal"
-        android:textColor="#DFC064"
-        android:textColorHighlight="#DFC064"
-        android:textColorLink="#DFC064"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/text_hours_worked"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit_hourly_rate"
-        android:layout_marginTop="16dp"
-        android:drawableLeft="@android:drawable/ic_menu_recent_history"
-        android:text=" 하루 근무 시간"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/edit_hours_worked"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text_hours_worked"
-        android:hint=" 하루 근무 시간을 입력하세요"
-        android:inputType="number"
-        android:textColor="#DFC064"
-        android:textColorHighlight="#DFC064"
-        android:textColorLink="#DFC064"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/text_days_worked"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit_hours_worked"
-        android:layout_marginTop="16dp"
-        android:drawableLeft="@android:drawable/ic_menu_my_calendar"
-        android:text=" 한 달 근무 일수"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/edit_days_worked"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text_days_worked"
-        android:hint=" 한 달 근무 일수를 입력하세요"
-        android:inputType="number"
-        android:textColor="#DFC064"
-        android:textColorHighlight="#DFC064"
-        android:textColorLink="#DFC064"
-        android:textStyle="italic" />
-
-    <Switch
-        android:id="@+id/switch_tax"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit_days_worked"
-        android:layout_centerHorizontal="true"
-        android:checked="false"
-        android:padding="8dp"
-        android:text="세금 공제" />
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_calculate"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/switch_tax"
-        android:autoLink="all|phone"
-        android:drawableBottom="@android:color/holo_orange_light"
-        android:text="계산하기"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:iconTint="#DFC064"
-        app:iconTintMode="add"
-        android:layout_marginHorizontal="10sp"
-        android:background="@drawable/button_style"/>
-
-    <TextView
-        android:id="@+id/text_salary"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/btn_tip"
-        style="@style/Widget.AppCompat.Button"
+        android:id="@+id/btn_open_calculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button_calculate"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="#DFC064"
-        android:backgroundTint="#DFC064"
-        android:text="Tip"
-        android:textSize="16sp"
-        app:rippleColor="#DFC064" />
+        android:text="급여 계산기로 이동"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>

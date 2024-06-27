@@ -3,4 +3,5 @@
 
     <item name="btn_calculate" type="id" />
     <item name="text_tip" type="id" />
+    <item name="btn_open_calculator" type="id" />
 </resources>

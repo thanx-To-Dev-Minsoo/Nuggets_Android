@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalaryCalculatorActivity">
+
+    <EditText
+        android:id="@+id/edit_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="회사 이름" />
+
+    <EditText
+        android:id="@+id/edit_hourly_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="시급" />
+
+    <EditText
+        android:id="@+id/edit_hours_worked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_hourly_rate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="하루 근무 시간" />
+
+    <EditText
+        android:id="@+id/edit_days_worked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_hours_worked"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="한 달 근무 일수" />
+
+    <Switch
+        android:id="@+id/switch_tax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_days_worked"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="세금 공제" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_tax"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="계산하기" />
+
+    <TextView
+        android:id="@+id/text_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="한 달 급여: "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_salary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="사용 설명" />
+
+</RelativeLayout>
