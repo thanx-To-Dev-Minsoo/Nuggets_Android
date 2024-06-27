@@ -12,7 +12,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-//이번에는 디자인, 추가 페이지, 색감 조정, 4대보험 적용 시, 다크모드, 스플레쉬툰 그림 확인하기
+//디자인, 추가 페이지, 색감 조정, 4대보험 적용 시, 다크 모드, 스플레쉬 툰 그림 확인
     private EditText editCompany, editHourlyRate, editHoursWorked, editDaysWorked;
     private Switch switchTax;
     private Button btnCalculate, btnTip;
