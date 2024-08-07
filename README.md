@@ -11,7 +11,7 @@ It's a simple paycheck calculator app.
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
 </p>
 
-#### Backend (Bluetooth function)
+#### Backend
 
 <p>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
