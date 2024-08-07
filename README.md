@@ -7,6 +7,7 @@ It's a simple paycheck calculator app.
 #### Design & Frontend
 
 <p>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
 </p>
 
